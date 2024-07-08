@@ -1,0 +1,657 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.for-login,
+.for-forgot {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  padding: 0;
+}
+.app-logo {
+  width: 150px;
+  max-height: 77px !important;
+}
+.for-login .auth-form,
+.for-forgot .auth-form {
+  width: 30%;
+  margin: 200px 30px;
+  height: max-content;
+  max-width: 700px;
+  
+}
+
+.auth-bg {
+  background-image: url("//assets/nextash/images/tech.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  flex: 1;
+}
+.btn.btn-primary {
+  background-color: #C03022;
+  color: #fff;
+}
+.btn-primary:hover {
+
+  background-color: #a93328;
+  color: #fff;
+
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle{
+  background-color: #761b13;
+  color: #fff;
+}
+.btn-primary:focus{
+
+  border-color: #761b13 !important;
+    box-shadow: 0 0 0 0.2rem rgb(192,48,34 ,0.7) !important;
+} */
+
+/* Extra */
+
+.for-login .page-card{
+  padding: 30px 10px;
+  background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+  /* margin-left: 50px;
+  margin-right: -80px; */
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--border-color);
+}
+
+
+@media only screen and (max-width: 425px) {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.for-login,
+.for-forgot {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.app-logo {
+  width: 130px;
+  max-height: 77px !important;
+  display: none !important;
+}
+
+.for-login .auth-form,
+.for-forgot .auth-form {
+    width: 100% !important;
+    margin: 290px 0px 0px 0px !important;
+    height: max-content;
+    max-width: 350px !important;
+    background-color: transparent; /* Set background color to transparent */
+    border-radius: 250px !important;
+    padding: 45px 0 !important;
+    margin-top: 30px;
+}
+
+
+.bk-img {
+  background-image: url("/assets/nextash_ui/images/banner.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* .auth-bg {
+    background-image: url("/assets/nextash/images/tech.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    flex: 1;
+  } */
+.btn.btn-primary {
+  background-color: #3a9e64;
+  color: #fff;
+}
+ 
+.btn-block {
+  display: block;
+  width: 85%;
+  margin: auto;
+}
+
+.btn-primary:hover {
+  background-color: #043d04;
+  color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #043d04;
+  color: #fff;
+}
+
+.btn-primary:focus {
+  border-color: #043d04 !important;
+  box-shadow: 0 0 0 0.2rem rgba(4, 148, 69, 0.7) !important;
+}
+
+.for-login .page-card .page-card-body .forgot-password-message,
+.for-forgot .page-card .page-card-body .forgot-password-message,
+.for-signup .page-card .page-card-body .forgot-password-message,
+.for-email-login .page-card .page-card-body .forgot-password-message {
+  text-align: right;
+  line-height: 1;
+  margin-right: 20px;
+}
+
+.for-login .page-card .page-card-body .email-field input,
+.for-login .page-card .page-card-body .password-field input,
+.for-forgot .page-card .page-card-body .email-field input,
+.for-forgot .page-card .page-card-body .password-field input,
+.for-signup .page-card .page-card-body .email-field input,
+.for-signup .page-card .page-card-body .password-field input,
+.for-email-login .page-card .page-card-body .email-field input,
+.for-email-login .page-card .page-card-body .password-field input {
+  padding-left: 40px;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.for-login .page-card .page-card-body .email-field,
+.for-login .page-card .page-card-body .password-field,
+.for-forgot .page-card .page-card-body .email-field,
+.for-forgot .page-card .page-card-body .password-field,
+.for-signup .page-card .page-card-body .email-field,
+.for-signup .page-card .page-card-body .password-field,
+.for-email-login .page-card .page-card-body .email-field,
+.for-email-login .page-card .page-card-body .password-field {
+  position: relative;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.for-login,
+.for-forgot {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff !important;
+  align-items: center;
+
+  /* padding: 45px 0; */
+}
+
+.app-logo {
+ 
+  width: 80px;
+  max-height: 60px !important;
+  display: none !important;
+}
+
+.for-login .auth-form,
+.for-forgot .auth-form {
+  width: 32%;
+  margin-right: 285px;
+  margin-top: 220px;
+  height: max-content;
+  max-width: 230px;
+}
+
+@media only screen and (min-width: 0) and (max-width: 576px) {
+  .for-login .auth-form,
+  .for-forgot .auth-form {
+    padding: 45px 0 !important;
+    background-color: #fff !important;
+  }
+}
+
+.bk-img {
+  background-image: url("/assets/nextash_ui/images/banner.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* .auth-bg {
+  background-image: url("/assets/nextash/images/tech.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  flex: 1;
+} */
+.btn.btn-primary {
+  background-color: #3a9e64;
+  color: #fff;
+}
+
+.btn-block {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.btn-primary:hover {
+  background-color: #043d04;
+  color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #066927;
+  color: #fff;
+}
+
+.btn-primary:focus {
+  border-color: #035c19 !important;
+  box-shadow: 0 0 0 0.2rem rgba(3, 109, 26, 0.7) !important;
+}
+
+.for-login .page-card .page-card-body .forgot-password-message,
+.for-forgot .page-card .page-card-body .forgot-password-message,
+.for-signup .page-card .page-card-body .forgot-password-message,
+.for-email-login .page-card .page-card-body .forgot-password-message {
+  text-align: right;
+  line-height: 1;
+  margin-right: 20px;
+}
+
+.for-login .page-card .page-card-body .email-field input,
+.for-login .page-card .page-card-body .password-field input,
+.for-forgot .page-card .page-card-body .email-field input,
+.for-forgot .page-card .page-card-body .password-field input,
+.for-signup .page-card .page-card-body .email-field input,
+.for-signup .page-card .page-card-body .password-field input,
+.for-email-login .page-card .page-card-body .email-field input,
+.for-email-login .page-card .page-card-body .password-field input {
+  padding-left: 40px;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.for-login .page-card .page-card-body .email-field,
+.for-login .page-card .page-card-body .password-field,
+.for-forgot .page-card .page-card-body .email-field,
+.for-forgot .page-card .page-card-body .password-field,
+.for-signup .page-card .page-card-body .email-field,
+.for-signup .page-card .page-card-body .password-field,
+.for-email-login .page-card .page-card-body .email-field,
+.for-email-login .page-card .page-card-body .password-field {
+  position: relative;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+}
+
+
+@media only screen and (min-width: 1024px) {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.for-login,
+.for-forgot {
+  display: flex;
+  justify-content: flex-start;
+  /* Align items to the start (left) */
+  width: 100%;
+  align-items: center;
+  padding: 0;
+}
+
+.app-logo {
+  
+  width: 70px;
+  max-height: 70px !important;
+  display: none !important;
+}
+
+.for-login .auth-form,
+.for-forgot .auth-form {
+  width: 26%;
+  margin-left: 74px !important; 
+  /* Adjust margin for left alignment */
+  height: max-content;
+  max-width: 245px;
+}
+
+.bk-img {
+  background-image: url("/assets/nextash_ui/images/banner.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+.page-card-head {
+  padding: 0px !important;
+}
+
+.btn.btn-primary {
+  background-color: #3a9e64;
+  color: #fff;
+}
+.page-card {
+  margin-top: 90% !important;
+  box-shadow: 1px 1px 11px grey !important ;
+  position: relative;
+  left: 15%;
+}
+
+.btn-block {
+  display: block;
+  width: 95%;
+  margin: auto;
+}
+
+.btn-primary:hover {
+  background-color: #043d04;
+  color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #065003;
+  color: #fff;
+}
+
+.btn-primary:focus {
+  border-color: #03490c !important;
+  box-shadow: 0 0 0 0.2rem rgba(7, 129, 33, 0.7) !important;
+}
+
+.for-login .page-card .page-card-body .forgot-password-message,
+.for-forgot .page-card .page-card-body .forgot-password-message,
+.for-signup .page-card .page-card-body .forgot-password-message,
+.for-email-login .page-card .page-card-body .forgot-password-message {
+  text-align: right;
+  line-height: 1;
+  margin-right: 20px;
+}
+
+.for-login .page-card .page-card-body .email-field input,
+.for-login .page-card .page-card-body .password-field input,
+.for-forgot .page-card .page-card-body .email-field input,
+.for-forgot .page-card .page-card-body .password-field input,
+.for-signup .page-card .page-card-body .email-field input,
+.for-signup .page-card .page-card-body .password-field input,
+.for-email-login .page-card .page-card-body .email-field input,
+.for-email-login .page-card .page-card-body .password-field input {
+  padding-left: 40px;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.for-login .page-card .page-card-body .email-field,
+.for-login .page-card .page-card-body .password-field,
+.for-forgot .page-card .page-card-body .email-field,
+.for-forgot .page-card .page-card-body .password-field,
+.for-signup .page-card .page-card-body .email-field,
+.for-signup .page-card .page-card-body .password-field,
+.for-email-login .page-card .page-card-body .email-field,
+.for-email-login .page-card .page-card-body .password-field {
+  position: relative;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+}
+
+@media only screen and (min-width: 1440px){
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.for-login,
+.for-forgot {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+}
+
+.app-logo {
+ 
+  width: 70px;
+  max-height: 70px !important;
+  display: none !important;
+}
+
+.for-login .auth-form,
+.for-forgot .auth-form {
+  width: 100%;
+  margin: 100px auto;
+  margin-left: 34px !important;
+  height: max-content;
+  max-width: 350px;
+}
+
+.bk-img {
+  background-image: url("/assets/nextash_ui/images/banner.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.btn.btn-primary {
+  background-color: #3a9e64;
+  color: #fff;
+}
+
+.btn-block {
+  display: block;
+  width: 95%;
+  margin: auto;
+}
+
+.btn-primary:hover {
+  background-color: #043d04;
+  color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #065003;
+  color: #fff;
+}
+
+.btn-primary:focus {
+  border-color: #03490c !important;
+  box-shadow: 0 0 0 0.2rem rgba(7, 129, 33, 0.7) !important;
+}
+
+.for-login .page-card .page-card-body .forgot-password-message,
+.for-forgot .page-card .page-card-body .forgot-password-message,
+.for-signup .page-card .page-card-body .forgot-password-message,
+.for-email-login .page-card .page-card-body .forgot-password-message {
+  text-align: right;
+  line-height: 1;
+  margin-right: 20px;
+}
+
+.for-login .page-card .page-card-body .email-field input,
+.for-login .page-card .page-card-body .password-field input,
+.for-forgot .page-card .page-card-body .email-field input,
+.for-forgot .page-card .page-card-body .password-field input,
+.for-signup .page-card .page-card-body .email-field input,
+.for-signup .page-card .page-card-body .password-field input,
+.for-email-login .page-card .page-card-body .email-field input,
+.for-email-login .page-card .page-card-body .password-field input {
+  padding-left: 40px;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.for-login .page-card .page-card-body .email-field,
+.for-login .page-card .page-card-body .password-field,
+.for-forgot .page-card .page-card-body .email-field,
+.for-forgot .page-card .page-card-body .password-field,
+.for-signup .page-card .page-card-body .email-field,
+.for-signup .page-card .page-card-body .password-field,
+.for-email-login .page-card .page-card-body .email-field,
+.for-email-login .page-card .page-card-body .password-field {
+  position: relative;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+}
+
+@media only screen and (min-width: 2560px){
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.for-login,
+.for-forgot {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+}
+
+.app-logo {
+ 
+  width: 70px;
+  max-height: 70px !important;
+  display: none !important;
+}
+
+.for-login .auth-form,
+.for-forgot .auth-form {
+  width: 100%;
+  margin: 100px auto;
+  margin-left: 170px !important;
+  height: max-content;
+  max-width: 450px;
+}
+
+.bk-img {
+  background-image: url("/assets/nextash_ui/images/banner.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.btn.btn-primary {
+  background-color: #3a9e64;
+  color: #fff;
+}
+
+.btn-block {
+  display: block;
+  width: 95%;
+  margin: auto;
+}
+
+.btn-primary:hover {
+  background-color: #043d04;
+  color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #065003;
+  color: #fff;
+}
+
+.btn-primary:focus {
+  border-color: #03490c !important;
+  box-shadow: 0 0 0 0.2rem rgba(7, 129, 33, 0.7) !important;
+}
+
+.for-login .page-card .page-card-body .forgot-password-message,
+.for-forgot .page-card .page-card-body .forgot-password-message,
+.for-signup .page-card .page-card-body .forgot-password-message,
+.for-email-login .page-card .page-card-body .forgot-password-message {
+  text-align: right;
+  line-height: 1;
+  margin-right: 20px;
+}
+
+.for-login .page-card .page-card-body .email-field input,
+.for-login .page-card .page-card-body .password-field input,
+.for-forgot .page-card .page-card-body .email-field input,
+.for-forgot .page-card .page-card-body .password-field input,
+.for-signup .page-card .page-card-body .email-field input,
+.for-signup .page-card .page-card-body .password-field input,
+.for-email-login .page-card .page-card-body .email-field input,
+.for-email-login .page-card .page-card-body .password-field input {
+  padding-left: 40px;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.for-login .page-card .page-card-body .email-field,
+.for-login .page-card .page-card-body .password-field,
+.for-forgot .page-card .page-card-body .email-field,
+.for-forgot .page-card .page-card-body .password-field,
+.for-signup .page-card .page-card-body .email-field,
+.for-signup .page-card .page-card-body .password-field,
+.for-email-login .page-card .page-card-body .email-field,
+.for-email-login .page-card .page-card-body .password-field {
+  position: relative;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+}
